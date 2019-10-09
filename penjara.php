@@ -23,6 +23,10 @@ class Media extends Eksekusi{
     {
         return $this->tgl_eksekusi;
     }
+    public function status ()
+    {
+        return "mati";
+    }
 }
 $hukum= new Eksekusi();
 $info= new Media();
@@ -34,3 +38,4 @@ echo"<br><br>info khusus eksekutor<br>";
 echo"tgl eksekusi:".$hukum->info_eksekutor();
 echo"<br><br>info Khusus media<br>";
 echo"tgl eksekusi:".$info->info_media();
+echo"<br>".$info->status();
