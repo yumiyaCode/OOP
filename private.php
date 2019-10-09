@@ -2,7 +2,7 @@
 
 class Laptop {
  
-   private $jenis="intel core i7-456";
+   private $jenis="intel core i7-456 767ghz";
 
    public function Tampilkan_procesor() {
      return $this->jenis;
