@@ -2,17 +2,17 @@
 class Luas_lingkaran
 {
  public $jari;
- public $phi=3.14;
+ public $pi=3.14;
 
   public function __construct($jari){
     $this->jari=$jari;
    }
    public function luas(){
-       $luas=$this->jari * $this->phi;
+       $luas=$this->jari * $this->pi;
        return $luas;
    }
     public function kel(){
-       $keliling=2*($this->jari *$this->phi);
+       $keliling=2*($this->jari *$this->pi);
        return $keliling;
    }
 
@@ -24,3 +24,4 @@ echo"<br>Kel Lingkaran
 <br>".$a->kel();
 
 ?>
+
